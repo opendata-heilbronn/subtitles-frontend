@@ -30,11 +30,12 @@ var watchSass = function () {
 gulp.task('server', ['sass'], function () {
     gulp.src('./')
         .pipe($.webserver({
-            port: 8079,
+            port: 8090,
             host: '0.0.0.0',
             fallback: 'index.html',
             livereload: {
                 enable: true, // need this set to true to enable livereload
+                port: 35728,
                 filter: function(fileName) {
                     if (fileName.match(/.scss$/)) { // exclude sass source maps from livereload
                         return false;
