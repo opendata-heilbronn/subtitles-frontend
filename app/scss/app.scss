@@ -12,16 +12,49 @@ body,html,section {
   font-size: 3rem;
 }
 
-.translationview > div {
+.flipper > div {
   flex: 0 0 100% !important;
   overflow-x: hidden;
   transition: all 1s;
+  backface-visibility: hidden;
 }
 
-.flip > div:first-child {
-  transform: translate(-100%, 0)
+.flipper > div:first-child {
+  z-index: 2;
 }
 
-.flip > div:last-child {
-  transform: translate(-100%, 0)
+.flipper > div:last-child {
+  transform: translate(-100%, 0) rotateY(180deg)
+}
+
+.translationview {
+  perspective: 1000;
+}
+
+
+.flip .flipper {
+  transform: rotateY(180deg)
+}
+
+.flipper {
+  transition: all 1s;
+  transform-style: preserve-3d;
+  
+}
+
+.buttons {
+ position: absolute;
+ bottom: 20px;
+ left: 0;
+ width: 100%;
+ font-family: News Cycle;
+ .md-button {
+   width: 50%;
+ }
+}
+
+.translation {
+  position: relative;
+  font-family: Cardo;
+  font-size: 3rem;
 }
