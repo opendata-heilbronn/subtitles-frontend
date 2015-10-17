@@ -1,3 +1,27 @@
 body {
   background: white;
+  font-size: 16px;
+}
+
+body,html,section {
+  height: 100%;
+}
+
+.word {
+  font-family: Cardo;
+  font-size: 3rem;
+}
+
+.translationview > div {
+  flex: 0 0 100% !important;
+  overflow-x: hidden;
+  transition: all 1s;
+}
+
+.flip > div:first-child {
+  transform: translate(-100%, 0)
+}
+
+.flip > div:last-child {
+  transform: translate(-100%, 0)
 }
