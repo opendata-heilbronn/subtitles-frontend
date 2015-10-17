@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('app').controller('WelcomeCtrl', function ($scope, $route, $routeParams, $location) {
+    angular.module('app').controller('WelcomeController', function ($scope, $route, $routeParams, $location) {
 
     });
 
