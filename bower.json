@@ -1,0 +1,25 @@
+{
+  "name": "subtitlesFrontend",
+  "version": "0.0.0",
+  "homepage": "https://github.com/opendata-heilbronn/subtitles-frontend",
+  "description": "Subtitles frontend project.",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "subtitles"
+  ],
+  "authors": [
+    "Codeweek Heilbronn"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7"
+  }
+}
