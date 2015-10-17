@@ -13,8 +13,8 @@
                 templateUrl: 'app/views/season.html',
                 controller: 'SeasonController'
             })
-            .when('season/:seasonId/words/:wordId', {
-                templateUrl: 'views/word.html',
+            .when('/season/:seasonId/episode/:episodeId', {
+                templateUrl: 'app/views/word.html',
                 controller: 'WordController'
             });
 
