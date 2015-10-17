@@ -1,9 +1,7 @@
 (function () {
     'use strict';
     
-    angular.module('app').controller('SeasonCtrl', function ($scope, $route, $routeParams, $location) {
-
-
+    angular.module('app').controller('SeasonController', function ($scope, $route, $routeParams, $location, Data) {
 
 
     });

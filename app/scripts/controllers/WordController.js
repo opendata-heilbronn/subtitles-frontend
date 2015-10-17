@@ -5,4 +5,5 @@
         var words = {'apple': ['Apfel'], 'banana': ['Banane']};
         $scope.words = words;
     })
+
 })();

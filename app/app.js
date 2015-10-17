@@ -6,11 +6,11 @@
     app.config(function($routeProvider, $locationProvider) {
         $routeProvider
             .when('/', {
-                templateUrl: 'views/welcome.html',
+                templateUrl: 'app/views/welcome.html',
                 controller: 'WelcomeController'
             })
             .when('/season/:seasonId', {
-                templateUrl: 'views/season.html',
+                templateUrl: 'app/views/season.html',
                 controller: 'SeasonController'
             })
             .when('season/:seasonId/words/:wordId', {
