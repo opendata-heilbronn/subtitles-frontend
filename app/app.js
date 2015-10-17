@@ -14,7 +14,7 @@
                 controller: 'SeasonController'
             })
             .when('/season/:seasonId/words/:wordId?', {
-                templateUrl: 'app/views/words.html',
+                templateUrl: 'app/views/word.html',
                 controller: 'WordController'
             });
 

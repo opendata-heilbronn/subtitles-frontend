@@ -1,1 +1,8 @@
-word
+<div class='translationview' layout="row" layout-fill ng-class="{'flip': showTranslation}">
+  	<div class='word' flex layout='column' layout-align='center center' ng-click='showTranslation=true'>{{word.english}}
+	</div>
+	<div class='translation' flex layout='column' layout-align='center center'> irgendwas		
+		   <md-button>ja</md-button>
+		   <md-button>nein</md-button>
+	</div>
+</div>
