@@ -7,15 +7,15 @@
         $routeProvider
             .when('/', {
                 templateUrl: 'views/welcome.html',
-                controller: 'WelcomeCtrl'
+                controller: 'WelcomeController'
             })
             .when('/season/:seasonId', {
                 templateUrl: 'views/season.html',
-                controller: 'SeasonCtrl'
+                controller: 'SeasonController'
             })
             .when('season/:seasonId/words/:wordId', {
                 templateUrl: 'views/word.html',
-                controller: 'WordCtrl'
+                controller: 'WordController'
             });
 
         // configure html5 to get links working on jsfiddle
