@@ -1,0 +1,94 @@
+[
+  {
+    "number":1,
+    "name":"Season 1",
+    "episodes":[
+      {
+        "number":1,
+        "name":"Winter Is Coming"
+      },
+      {
+        "number":2,
+        "name":"The Kingsroad"
+      },
+      {
+        "number":3,
+        "name":"Lord Snow"
+      },
+      {
+        "number":4,
+        "name":"Cripples, Bastards and Broken Things"
+      },
+      {
+        "number":5,
+        "name":"The Wold and the Lion"
+      },
+      {
+        "number":6,
+        "name":"A Golden Crown"
+      },
+      {
+        "number":7,
+        "name":"You Win or You Die"
+      },
+      {
+        "number":8,
+        "name":"The Pointy End"
+      },
+      {
+        "number":9,
+        "name":"Baelor"
+      },
+      {
+        "number":10,
+        "name":"Fire and Blood"
+      }
+    ]
+  },
+  {
+    "number":2,
+    "name":"Season 2",
+    "episodes":[
+      {
+        "number":1,
+        "name":"The North Remembers"
+      },
+      {
+        "number":2,
+        "name":"The Night Lands"
+      },
+      {
+        "number":3,
+        "name":"What Is Dead May Never Die"
+      },
+      {
+        "number":4,
+        "name":"Garden of Bones"
+      },
+      {
+        "number":5,
+        "name":"The Ghost of Harrenhal"
+      },
+      {
+        "number":6,
+        "name":"The Old Gods and the New"
+      },
+      {
+        "number":7,
+        "name":"A Man Without Honor"
+      },
+      {
+        "number":8,
+        "name":"The Prince of Winterfell"
+      },
+      {
+        "number":9,
+        "name":"Blackwater"
+      },
+      {
+        "number":10,
+        "name":"Valar Morghulis"
+      }
+    ]
+  }
+]
